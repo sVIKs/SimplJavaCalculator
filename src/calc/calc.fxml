@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane id="form" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="470.0" style="-fx-background-color: #cceeff; -fx-border-radius: 6;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calc.Controller">
+   <children>
+      <Button id="one" alignment="CENTER" focusTraversable="false" layoutX="20.0" layoutY="320.0" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="70.0" prefWidth="70.0" text="1" textAlignment="CENTER">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button id="two" alignment="CENTER" focusTraversable="false" layoutX="110.0" layoutY="320.0" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="70.0" prefWidth="70.0" text="2" textAlignment="CENTER">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button id="three" alignment="CENTER" focusTraversable="false" layoutX="200.0" layoutY="320.0" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="70.0" prefWidth="70.0" text="3" textAlignment="CENTER">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+         <Button id="four" alignment="CENTER" focusTraversable="false" layoutX="20.0" layoutY="230.0" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="70.0" prefWidth="70.0" text="4" textAlignment="CENTER">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button id="five" alignment="CENTER" focusTraversable="false" layoutX="110.0" layoutY="230.0" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="70.0" prefWidth="70.0" text="5" textAlignment="CENTER">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button id="six" alignment="CENTER" focusTraversable="false" layoutX="200.0" layoutY="230.0" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="70.0" prefWidth="70.0" text="6" textAlignment="CENTER">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button id="seven" alignment="CENTER" focusTraversable="false" layoutX="20.0" layoutY="140.0" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="70.0" prefWidth="70.0" text="7" textAlignment="CENTER">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button id="eight" alignment="CENTER" focusTraversable="false" layoutX="110.0" layoutY="140.0" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="70.0" prefWidth="70.0" text="8" textAlignment="CENTER">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button id="nine" alignment="CENTER" focusTraversable="false" layoutX="200.0" layoutY="140.0" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="70.0" prefWidth="70.0" text="9" textAlignment="CENTER">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button id="zero" alignment="CENTER" focusTraversable="false" layoutX="110.0" layoutY="410.0" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="70.0" prefWidth="70.0" text="0" textAlignment="CENTER">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+
+
+
+      <Button fx:id="equals" alignment="CENTER" defaultButton="true" focusTraversable="false" layoutX="380.0" layoutY="320.0" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="160.0" prefWidth="70.0" style="-fx-background-color: #006CA5;" text="=" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="reset" alignment="CENTER" cancelButton="true" focusTraversable="false" layoutX="20.0" layoutY="410.0" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #D21404;" text="C" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+
+      <Button fx:id="point" alignment="CENTER" focusTraversable="false" layoutX="200.0" layoutY="410.0" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="70.0" prefWidth="70.0" text="." textAlignment="CENTER">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="inversion" alignment="CENTER" focusTraversable="false" layoutX="290.0" layoutY="140.0" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #AAAAAA;" text="+/-" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button fx:id="multiply" alignment="CENTER" focusTraversable="false" layoutX="290.0" layoutY="230.0" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #666666;" text="×" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="minus" alignment="CENTER" focusTraversable="false" layoutX="290.0" layoutY="320.0" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #666666;" text="-" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="plus" alignment="CENTER" focusTraversable="false" layoutX="290.0" layoutY="410.0" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #666666;" text="+" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="delete" alignment="CENTER" focusTraversable="false" layoutX="380.0" layoutY="140.0" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #AAAAAA;" text="⌫" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button fx:id="divide" alignment="CENTER" focusTraversable="false" layoutX="380.0" layoutY="230.0" mnemonicParsing="false" onAction="#handleButtonClick" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: #666666;" text="÷" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+
+      
+      <Label fx:id="screen" alignment="CENTER_RIGHT" layoutX="20.0" layoutY="24.0" prefHeight="100.0" prefWidth="430.0" style="-fx-background-color: #DDDDDD; -fx-border-color: #BBBBBB; -fx-border-width: 3; -fx-border-radius: 6; -fx-padding: 10; -fx-background-radius: 6;" text="-12345678901234567890" textAlignment="JUSTIFY">
+         <font>
+            <Font name="Courier New Bold" size="32.0" />
+         </font>
+      </Label>
+      <Separator fx:id="line" disable="true" layoutX="36.0" layoutY="91.0" prefHeight="5.0" prefWidth="400.0" style="-fx-background-color: #BBBBBB; -fx-border-color: #BBBBBB;" />
+      <Label fx:id="debug" layoutX="20.0" layoutY="484.0" prefHeight="17.0" prefWidth="430.0" />
+      <Label id="history" fx:id="history" alignment="CENTER_RIGHT" layoutX="35.0" layoutY="95.0" prefHeight="27.0" prefWidth="400.0" text="-12345678901234567890123456789012345678901234567890" textAlignment="RIGHT" textFill="#808080">
+         <font>
+            <Font name="Courier New Bold" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
